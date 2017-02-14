@@ -3,15 +3,15 @@ module Multiplier(input logic   Clk,     		// Internal
                                 ClearA_LoadB,// Push button 1
                                 Run,	  		// Push button 2
                   input  [7:0]  S,     		// input data from switches
-						output logic  X,				// sign extend bit
-										  M,				// DEBUG
-										  D,				// test
-						output [7:0]  Aval,    		// DEBUG
+		  output logic  X,				// sign extend bit
+				M,				// DEBUG
+			        D,				// test
+		  output [7:0]  Aval,    		// DEBUG
                                 Bval,    		// DEBUG
                   output [6:0]  AhexL,			// output values for hex displays
                                 AhexU,
-										  BhexL,
-										  BhexU);
+	                        BhexL,
+				BhexU);
 										 
 
 										  
